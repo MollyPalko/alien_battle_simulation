@@ -4,7 +4,7 @@ My first C++ project using OOP.
 
 - Part 1 implements Boov
 - Part 2 implements Gorg
-- Part 3 adds inheritance to project
+- Part 3 refactor to add inheritance to project
 
 ## YouTube links (Bradley Sward)
 [
@@ -49,6 +49,15 @@ What is the minimum number of health points a Boov needs to survive 12 rounds of
 - public getter for shield value
 - public boolean IsDefeated()
 - public void function GetsAttacked() (probabilities related to shield and health damages)
+
+## Refactoring (Pt 3)
+- refactor to use inheritance and polymorphism
+- base class will be called Competitor
+Hints:
+- shared member variables should move into base class
+- functions with same behavior should move to base class
+- function with same name but different behavior is a place to create a virtual function in base class
+- `GetsAttacked()` is a great example of a virtual function
 
 
 

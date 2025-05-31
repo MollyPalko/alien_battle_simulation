@@ -1,31 +1,9 @@
 #include "Boov.h"
 
 Boov::Boov(const std::string& NAME, int HEALTH, int SHIELD)
-  : name(NAME),
-    health(HEALTH),
-    shield(SHIELD)
+  : Competitor(NAME, HEALTH, SHIELD) 
 {
   // initializer is used to fill mem vars. nothing needed here
-}
-
-std::string Boov::GetName() const
-{
-  return name;
-}
-
-int Boov::GetHealth() const
-{
-  return health;
-}
-
-int Boov::GetShield() const
-{
-  return shield;
-}
-
-bool Boov::IsDefeated() const
-{
-  return health <= 0;
 }
 
 void Boov::GetsAttacked()

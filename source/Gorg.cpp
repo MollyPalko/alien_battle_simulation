@@ -1,32 +1,10 @@
 #include "Gorg.h"
 
 Gorg::Gorg()
-  : name("George"),
-    health(30),
-    shield(5),
+  : Competitor("George", 30, 5),
     max_shield(5)
 {
   // initializer is used to fill mem vars. nothing needed here
-}
-
-std::string Gorg::GetName() const
-{
-  return name;
-}
-
-int Gorg::GetHealth() const
-{
-  return health;
-}
-
-int Gorg::GetShield() const
-{
-  return shield;
-}
-
-bool Gorg::IsDefeated() const
-{
-  return health <= 0;
 }
 
 void Gorg::GetsAttacked()

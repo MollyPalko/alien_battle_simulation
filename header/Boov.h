@@ -1,23 +1,17 @@
 #pragma once
 
 #include <string>
+#include "Competitor.h"
 
-class Boov
+class Boov : public Competitor
 {
   public:
     Boov(const std::string & NAME, int HEALTH, int SHIELD);
     // pass string by reference
     // use const since those methods are reading data only
     
-    std::string GetName() const;
-    int GetHealth() const;
-    int GetShield() const;
-
-    bool IsDefeated() const;
-    void GetsAttacked();
+    virtual void GetsAttacked() override;
+    // override the no behavior for this function as defined in Competitor
 
   private:
-    std::string name;
-    int health;
-    int shield;
 };
