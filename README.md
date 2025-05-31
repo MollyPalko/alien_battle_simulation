@@ -7,12 +7,11 @@ My first C++ project using OOP.
 - Part 3 refactor to add inheritance to project
 
 ## YouTube links (Bradley Sward)
-[
-C++ Object Oriented Programming Example Project (Part 1 of 3)]([https://www.google.com](https://www.youtube.com/watch?v=zt2Eju3basU))
-[
-C++ Object Oriented Programming Example Project (Part 2 of 3)]([https://www.google.com](https://www.youtube.com/watch?v=6MzV3EaIKpQ))
-[
-C++ Object Oriented Programming Example Project (Part 3 of 3)]([https://www.google.com](https://www.youtube.com/watch?v=IBxsY6QlqSQ))
+[C++ Object Oriented Programming Example Project (Part 1 of 3)] (https://www.google.com](https://www.youtube.com/watch?v=zt2Eju3basU)
+
+[C++ Object Oriented Programming Example Project (Part 2 of 3)] (https://www.google.com](https://www.youtube.com/watch?v=6MzV3EaIKpQ)
+
+[C++ Object Oriented Programming Example Project (Part 3 of 3)] (https://www.google.com](https://www.youtube.com/watch?v=IBxsY6QlqSQ)
 
 ## Backstory
 The Gorg can no longer be reasoned with! 
