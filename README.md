@@ -38,3 +38,17 @@ What is the minimum number of health points a Boov needs to survive 12 rounds of
 - public getter for shield value
 - public boolean function `isDefeated()` (Boov is defeated when `health <= 0`)
 - public void function `GetsAttacked()` (probabilities related to shield and health damages)
+
+## Gorg Class Requirements (Pt 2)
+- private string member var for name (every Gorg named George)
+- private int member var for health (every Gorg has 30)
+- private int member var for shield (every has 5 points and max 5 points)
+- public constructor
+- public getter for name
+- public getter for health value
+- public getter for shield value
+- public boolean IsDefeated()
+- public void function GetsAttacked() (probabilities related to shield and health damages)
+
+
+
